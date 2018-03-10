@@ -81,7 +81,7 @@ inline void MGL_ERROR(const char* description) {
 /**
  * Read pixel data starting with the pixel at coordinates
  * (0, 0), up to (width,  height), into the array
- * pointed to by data.  The boundaries are lower-inclusive,         CHECK HERE
+ * pointed to by data.  The boundaries are lower-inclusive,         **DONE
  * that is, a call with width = height = 1 would just read
  * the pixel at (0, 0).
  *
@@ -123,7 +123,7 @@ MGLfloat area(vec2 a, vec2 b, vec2 c){
  * my helper function=====================================================/
  */
  
-// Rasterize function described in assignment file
+// Rasterize function described in assignment file                  DONE
 void Rasterize_Triangle(const triangle& tria,
                         int width,
                         int height,
