@@ -6,3 +6,6 @@ In this assignment, I will be implementing a simplified 3D rendering pipeline (w
   2. Rasterization and interpolation
   3. Clipping
   4. Using a z-buffer for hidden surfaces
+  
+## How to run it
+Download, unzip, and do make file first (enter make in terminal)
